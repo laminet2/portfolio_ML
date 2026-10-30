@@ -17,17 +17,12 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## ⚠️ Fichier de données à ajouter
-
-La page « Exploration et ACP » a besoin du jeu de données (non inclus) :
-place **`adult.csv`** (Kaggle : *Adult Census Income*, le même que dans le notebook) dans le dossier `data/`.
-Le nettoyage du notebook est appliqué automatiquement. Un fichier déjà nettoyé nommé `cleaned_df.csv` est aussi accepté.
 
 ## Structure
 
 ```
 app.py                  page d'accueil
-config.py               nom, liens (GitHub, LinkedIn) : à personnaliser
+config.py               nom, liens (fichier de configurations)
 utils.py                transformers personnalisés requis par les .pkl + chargement des modèles
 analysis.py             KMO, Bartlett, ACP, tests statistiques
 pages/                  une page par projet
