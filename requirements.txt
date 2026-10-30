@@ -1,5 +1,6 @@
 streamlit>=1.40
 numpy
+joblib
 pandas
 scipy
 matplotlib
