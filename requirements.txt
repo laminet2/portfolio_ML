@@ -1,0 +1,12 @@
+streamlit>=1.40
+numpy
+pandas
+scipy
+matplotlib
+seaborn
+Pillow
+# Même version que Colab au moment de l'export des .pkl (sinon avertissements / erreurs)
+scikit-learn==1.6.1
+xgboost
+# Même famille que Colab (TF 2.21) ; version CPU, suffisante pour l'inférence
+tensorflow-cpu>=2.16,<3
