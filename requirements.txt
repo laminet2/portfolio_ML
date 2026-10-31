@@ -1,4 +1,4 @@
-# Python requis : >=3.10, <3.13
+# Python requis : 3.12 (à choisir dans Streamlit Cloud > Advanced settings, ce fichier ne le fixe pas)
 streamlit>=1.40
 numpy
 joblib
@@ -9,5 +9,5 @@ seaborn
 Pillow
 scikit-learn==1.6.1
 xgboost==3.4.0
-tensorflow-cpu>=2.16,<3
+tensorflow-cpu==2.21.0
 
