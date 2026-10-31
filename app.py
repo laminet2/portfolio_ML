@@ -8,7 +8,7 @@ st.set_page_config(page_title="Portfolio Machine Learning", page_icon="🧠", la
 # --------------------------------------------------------------------------- #
 # En-tête
 # --------------------------------------------------------------------------- #
-st.title("🧠 Portfolio Machine Learning")
+st.title("Portfolio Machine Learning")
 st.subheader(config.NAME)
 st.caption(config.TITLE)
 
@@ -21,8 +21,9 @@ la démarche qui y a mené (nettoyage, choix de modèles, limites).
 )
 
 links = [f"[GitHub]({config.GITHUB_PROFILE})"]
-if config.LINKEDIN_URL:
-    links.append(f"[LinkedIn]({config.LINKEDIN_URL})")
+
+links.append(f"[LinkedIn]({config.LINKEDIN_URL})")
+links.append(f"[Email : traore@aims.edu.gh] ")
 st.markdown("**Me retrouver :** " + " · ".join(links))
 st.markdown(f"**Compétences :** {config.SKILLS}")
 

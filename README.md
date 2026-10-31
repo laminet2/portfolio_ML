@@ -9,14 +9,6 @@ Application Streamlit qui présente quatre projets de Machine Learning, chacun u
 | 📱 Prix des téléphones | Estimation du prix à Dakar (données scrapées) | Régression linéaire (`models/model_telephone.pkl`) |
 | 📊 Exploration et ACP | Recensement américain : EDA, tests, ACP | Calculs en direct |
 
-## Lancer en local
-
-```bash
-python -m venv .venv && source .venv/bin/activate   # Windows : .venv\Scripts\activate
-pip install -r requirements.txt
-streamlit run app.py
-```
-
 
 ## Structure
 

@@ -1,3 +1,4 @@
+# Python requis : >=3.10, <3.13
 streamlit>=1.40
 numpy
 joblib
@@ -6,8 +7,7 @@ scipy
 matplotlib
 seaborn
 Pillow
-# Même version que Colab au moment de l'export des .pkl (sinon avertissements / erreurs)
 scikit-learn==1.6.1
-xgboost
-# Même famille que Colab (TF 2.21) ; version CPU, suffisante pour l'inférence
+xgboost==3.4.0
 tensorflow-cpu>=2.16,<3
+

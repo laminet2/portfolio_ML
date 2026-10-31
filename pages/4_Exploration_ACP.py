@@ -31,12 +31,6 @@ def get_data():
 
 
 loaded = get_data()
-if loaded is None:
-    st.error(
-        "Fichier de données introuvable. Place le fichier **`adult.csv`** (jeu *Adult Census Income* de "
-        "Kaggle, le même que dans le notebook) dans le dossier **`data/`** du projet, puis recharge la page."
-    )
-    st.stop()
 
 df, n_dup = loaded
 num_cols = list(df.select_dtypes(include="number").columns)
