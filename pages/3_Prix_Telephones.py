@@ -93,11 +93,8 @@ st.markdown(
 Soyons clairs : avec un R² d'environ **0,24**, le modèle n'explique qu'une partie des variations de
 prix, et l'erreur moyenne est d'environ **{fcfa(MAE_FCFA)}**. Il donne un **ordre de grandeur**, pas un prix précis.
 
-Pistes pour l'améliorer :
-- ajouter le **modèle exact** du téléphone (aujourd'hui seule la marque est connue, alors qu'un iPhone 8 et
-  un iPhone 15 n'ont pas du tout le même prix) ;
-- enrichir avec l'année de sortie ou l'état de la batterie ;
-- essayer des modèles non linéaires (forêts aléatoires, gradient boosting) une fois ces variables ajoutées.
+On pourais eventuellements l'ameliorer en ajouter le **modèle exact** du téléphone (aujourd'hui seule la marque est connue, alors qu'un iPhone 8 et
+un iPhone 15 n'ont pas du tout le même prix) ;
 """
 )
 
